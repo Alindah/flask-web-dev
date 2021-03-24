@@ -5,7 +5,7 @@ This app returns the length of a given string.
 - Output should be { 4 }
 
 """
-from flask import Flask, request, render_template
+from flask import Flask, request
 from flask_restful import Resource, Api
 
 app = Flask(__name__)
